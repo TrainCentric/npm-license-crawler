@@ -47,6 +47,8 @@ Options
 
 * `--relativeLicensePath`: output the relative file path for license files.
 
+* `--noParents`: don't add parents to output.
+
 * `--json /path/to/save.json`: export data as JSON to the given file.
     The path will be created if it does not exist.
 

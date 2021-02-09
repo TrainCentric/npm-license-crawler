@@ -22,7 +22,8 @@ var
         development: Boolean,
         noColor: Boolean,
         help: Boolean,
-        version: Boolean
+		version: Boolean,
+		noParents: Boolean
     },
     shortHands = {
         "h" : ["--help"],
@@ -42,7 +43,8 @@ var
         development: "show only development dependencies",
         noColor: "(or --no-color) don't show colors in the console output",
         help: "this help message and exit.",
-        version: "print version and exit."
+		version: "print version and exit.",
+		noParents: "don't add parents to output"
     },
     defaults = {
         start: process.cwd()
